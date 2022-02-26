@@ -1,0 +1,21 @@
+body{
+  background-color:#EAF6F6;
+  font-size:15px;
+  font-family:Lucida Grande;
+}
+hr{
+  border-style: none;
+  border-top: dotted;
+  border-color: gray;
+  border-width:7px;
+  width:70%;
+}
+h1{
+  color:#66BFBF;
+  font-family:Lucida Grande;
+
+}
+h3{
+  color:#66BFBF;
+  font-family:Lucida Grande;
+}
