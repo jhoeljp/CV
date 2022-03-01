@@ -1,21 +1,114 @@
+/* HTML tag styling */
 body{
-  background-color:#EAF6F6;
-  font-size:15px;
-  font-family:Lucida Grande;
-}
-hr{
-  border-style: none;
-  border-top: dotted;
-  border-color: gray;
-  border-width:7px;
-  width:70%;
+  background-color: #EAF6F6;
+  margin:0;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
 }
 h1{
-  color:#66BFBF;
-  font-family:Lucida Grande;
-
+  margin-top:0 ;
+  margin-bottom: 34px;
+  font-family: Sacramento,cursive;
+  font-size:8.85rem;
 }
 h3{
-  color:#66BFBF;
-  font-family:Lucida Grande;
+  font-weight: bold;
+  font-size:2em;
+  color:#90E0EF;
+}
+h2{
+  font-weight: bold;
+  font-size:1.88rem;
+  color: #03045E;
+}
+
+p{
+  font-family: Lucida Grande,Helvetica,Arial;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+
+/* Classes */
+
+.subtitle{
+  font-weight: lighter;
+  font-size:1.5rem;
+  color:black;
+}
+
+.skill-row{
+  width:50%;
+  margin-left:25%;
+}
+
+.top{
+  background-color: #00B4D8;
+  padding-top: 50px;
+}
+
+.colored-container{
+  padding-top: 20px;
+  padding-bottom: 12px;
+  background-color:#00B4D8 ;
+}
+.outro{
+  margin-top: 0;
+  padding-top:7px;
+}
+.anchor{
+  font-family: Lucida Grande,Helvetica,Arial;
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Bullet point lists */
+
+ul{
+  margin-left: 25%;
+  text-align: left;
+  list-style-position: inside;
+  padding-bottom: 17px;
+  width:60%;
+  font-family: Lucida Grande,Helvetica,Arial;
+}
+li{
+  margin-left: 10%;
+}
+
+/* Images specifications */
+
+.profile_pic{
+  padding-top:30px;
+  width:150px;
+}
+
+.logos{
+  padding-right: 10px;
+  width:40px;
+}
+
+.cloud1{
+  width:80px;
+  position:relative;
+  left:10%;
+}
+.cloud2{
+  width:150px;
+  position: absolute;
+  left:22%;
+}
+.cloud3{
+  width:50px;
+  position: absolute;
+  right:30%;
+}
+.cloud4{
+  width:200px;
+  position: absolute;
+  left:10%;
+}
+.mountain{
+  height:390px;
 }
